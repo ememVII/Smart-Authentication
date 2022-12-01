@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+  </head>
+  <body>
+
+    <div class="content">
+      <h1 id="welcomeUser" class="text-center mt-5"></h1>
+      <div class="container center">
+        <div class="card center w-50 mt-3 py-4">
+          <h2 class="mb-4">Smart Login</h2>
+          <div id="signIn-form" class="form w-75">
+            <label for="signInMail">EMAIL</label>
+            <input id="signInMail" type="text" class="form-control mb-3 mt-1" placeholder="Enter your email">
+            <div id="mailWarning" class="alert alert-warning d-none" role="alert">Your mail is invalid</div>
+            <label for="signInPass">PASSWORD</label>
+            <div class="passToggler position-relative">
+              <input id="signInPass" type="password" class="form-control mb-3 mt-1" placeholder="Enter your password">
+              <span id="eyeSlash"><i class="fa-solid fa-eye d-block" id="eye"></i></span>
+            </div>
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <div id="passWarning" class="alert alert-warning d-none" role="alert">Your Password must be at least 8 characters with at least 1 Upper Case, 1 lower case, and 1 numeric character</div>
+          </div>
+
+          <div id="emptyWarning" class="alert alert-danger d-none" role="alert">All inputs are Required!</div>
+          <div id="loginSuccess" class="alert alert-success d-none" role="alert">Login Success</div>
+          <div id="loginFailed" class="alert alert-danger d-none" role="alert">Your Email or Password is incorrect. Please try again.</div>
+          <button id="signInBtn" class="btn login w-75 my-4">Login</button>
+          <h6>Don't have an account ? <a href="signup.html">Sign Up</a></h6>
+          <h6><a href="signup.html">Forgot Password?</a></h6>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/signin.js"></script>
+  </body>
+</html>
