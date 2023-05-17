@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: 'Nunito', sans-serif;
+    color: #263751;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: #d40028;
+}
+
+ul {
+    list-style: none;
+    padding: 0 !important;
+}
+
+span {
+    color: #d40028;
+}
+
+#signUpForm {
+    background-image: url(./assets/images/undraw_sign__up_nm4k.svg);
+}
+

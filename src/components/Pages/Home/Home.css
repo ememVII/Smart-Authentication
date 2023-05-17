@@ -1,0 +1,20 @@
+.red {
+    color: #d40028;
+}
+
+.icon .facebook {
+    color: #1877f2;
+}
+.icon .linkedin {
+    color: #0077b5;
+}
+.icon .github {
+    color: #333;
+}
+.whatsapp {
+    color: #4aae20;
+}
+.img {
+    max-width: 85%;
+    margin-right: 15px;
+}

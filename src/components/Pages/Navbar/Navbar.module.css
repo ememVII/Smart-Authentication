@@ -1,0 +1,15 @@
+.logOut {
+    cursor: pointer;;
+}
+
+.shadow {
+    box-shadow: 0px 5px 10px -10px rgb(191, 191, 191);
+}
+
+.burgerIcon{
+    border: none !important;
+}
+
+.burgerIcon:focus {
+    box-shadow: none !important;
+}
